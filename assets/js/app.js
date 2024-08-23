@@ -17,7 +17,7 @@ const styleBoxes1 = () => {
 
 const styleBoxes2 = () => {
 
-    Array(4).fill(0).forEach((_, i) => {
+    Array(3).fill(0).forEach((_, i) => {
         const box = document.getElementById(`box${i + 3}`);
 
         const area = document.getElementById(`area${i + 3}`);
